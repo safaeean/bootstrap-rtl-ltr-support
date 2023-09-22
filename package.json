@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-rtl-ltr-support",
+  "version": "1.0.0",
+  "description": "This repository is dedicated to configuring Bootstrap for seamless support of both RTL (Right-to-Left) and LTR (Left-to-Right) layouts. Utilize it to accelerate the development of multilingual websites.",
+  "main": "index.js",
+  "scripts": {
+    "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/bootstrap.scss:dist/css/bootstrap.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/safaeean/bootstrap-rtl-ltr-support.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/safaeean/bootstrap-rtl-ltr-support/issues"
+  },
+  "homepage": "https://github.com/safaeean/bootstrap-rtl-ltr-support#readme",
+  "devDependencies": {
+    "sass": "^1.68.0"
+  }
+}
