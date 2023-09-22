@@ -4,7 +4,7 @@
   "description": "This repository is dedicated to configuring Bootstrap for seamless support of both RTL (Right-to-Left) and LTR (Left-to-Right) layouts. Utilize it to accelerate the development of multilingual websites.",
   "main": "index.js",
   "scripts": {
-    "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/bootstrap.scss:dist/css/bootstrap.css",
+    "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/bootstrap.scss:dist/css/bootstrap-rtl-ltr.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
